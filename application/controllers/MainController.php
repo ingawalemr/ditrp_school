@@ -17,4 +17,14 @@ class MainController extends CI_Controller
 	{
 		$this->load->view('index');
 	}
+
+	public function login()
+	{
+		$this->load->view('login');
+	}
+
+	public function aboutus()
+	{
+		$this->load->view('about');
+	}
 }

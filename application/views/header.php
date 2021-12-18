@@ -41,6 +41,9 @@
 					    	<div class="icon bg-tertiary mr-2 d-flex justify-content-center align-items-center"><span class="icon-phone2"></span></div>
 						    <span class="text">022-24132735</span>
 					    </div>
+
+					    
+					  
 				    </div>
 			    </div>
 		    </div>
@@ -55,14 +58,14 @@
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav ml-auto">
 	        	<li class="nav-item active"><a href="index.php" class="nav-link pl-0">Home</a></li>
-	        	<li class="nav-item"><a href="#" class="nav-link">About Us</a></li>
+	        	<li class="nav-item"><a href="<?php echo base_url('MainController/aboutus') ?>" class="nav-link">About Us</a></li>
 	        	<li class="nav-item"><a href="#" class="nav-link">Admissions</a></li>
 				<li class="nav-item"><a href="#" class="nav-link">Gallery</a></li>
 	        	<li class="nav-item"><a href="#" class="nav-link">Facilities</a></li>
 	        	<li class="nav-item"><a href="#" class="nav-link">Rules & Regulations</a></li>
 	        	<li class="nav-item"><a href="#" class="nav-link">Careers</a></li>
 	          <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
-	          <li class="nav-item"><a href="#" class="nav-link">Login</a></li>
+	         <a href="<?php echo base_url('MainController/login'); ?>" class="nav-link">Login</a></li>
 	          
 	        </ul>
 	      </div>
