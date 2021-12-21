@@ -54,5 +54,14 @@ $route['default_controller'] = 'MainController';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
-// $route['index'] = 'MainController/index';
-// $route['dashboard'] = 'MainController/dashboard';
+$route['index'] = 'MainController/index';
+$route['about_us'] = 'MainController/about_us';
+$route['request_quote'] = 'MainController/request_quote';
+$route['contact_us'] = 'MainController/contact_us';
+$route['home_banner'] = 'MainController/home_banner';
+$route['gallary'] = 'MainController/gallary';
+$route['facility'] = 'MainController/facility';
+$route['admission_enquiry'] = 'MainController/admission_enquiry';
+$route['admission_policy'] = 'MainController/admission_policy';
+$route['contact'] = 'MainController/contact';
+$route['admission_enquiry_recieve'] = 'MainController/admission_enquiry_recieve';
